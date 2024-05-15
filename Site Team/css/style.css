@@ -254,7 +254,7 @@ header_link:active {
 }
 
 .City {
-  height: 1400px;
+  height: 1100px;
   padding-top: 188px;
   padding-left: 10px;
   font-size: 100px;
@@ -272,13 +272,16 @@ header_link:active {
   margin-top: -22%;
 
 }
+
 .form_radio_btn {
   display: inline-block;
   margin-right: 10px;
 }
+
 .form_radio_btn input[type=radio] {
   display: none;
 }
+
 .form_radio_btn label {
   display: inline-block;
   cursor: pointer;
@@ -288,11 +291,13 @@ header_link:active {
   border-radius: 6px;
   user-select: none;
 }
-.form_radio_btn input[type=radio]:checked + label {
-	background: #86bcda;
+
+.form_radio_btn input[type=radio]:checked+label {
+  background: #86bcda;
 }
+
 .form_radio_btn label:hover {
-	color: #666;
+  color: #797979;
 }
 
 
@@ -342,4 +347,14 @@ header_link:active {
 
 .searchButton {
   padding-top: 50px;
+}
+
+.Rectangle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: url(/img/svg/Rectangle\ 2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
